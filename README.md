@@ -2,3 +2,5 @@
 A script for creating company breakdown images from https://bciwiki.org/index.php/Category:Companies
 
 All generated infographics can be found here: https://bciwiki.org/index.php/Company_Profiles
+
+Current design by [Toomas Erik Anijärv](https://www.toomaserikanijarv.com/)
