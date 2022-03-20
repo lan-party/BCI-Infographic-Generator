@@ -38,14 +38,17 @@ for country in countries2:
 testmode = False
 countries = {'UK': 'United Kingdom', 'AF': 'Afghanistan', 'AL': 'Albania', 'DZ': 'Algeria', 'AS': 'American Samoa', 'AD': 'Andorra', 'AO': 'Angola', 'AI': 'Anguilla', 'AQ': 'Antarctica', 'AG': 'Antigua and Barbuda', 'AR': 'Argentina', 'AM': 'Armenia', 'AW': 'Aruba', 'AU': 'Australia', 'AT': 'Austria', 'AZ': 'Azerbaijan', 'BS': 'Bahamas', 'BH': 'Bahrain', 'BD': 'Bangladesh', 'BB': 'Barbados', 'BY': 'Belarus', 'BE': 'Belgium', 'BZ': 'Belize', 'BJ': 'Benin', 'BM': 'Bermuda', 'BT': 'Bhutan', 'BO': 'Bolivia', 'BA': 'Bosnia and Herzegovina', 'BW': 'Botswana', 'BV': 'Bouvet Island', 'BR': 'Brazil', 'IO': 'British Indian Ocean Territory', 'BN': 'Brunei', 'BG': 'Bulgaria', 'BF': 'Burkina Faso', 'BI': 'Burundi', 'KH': 'Cambodia', 'CM': 'Cameroon', 'CA': 'Canada', 'CV': 'Cape Verde', 'KY': 'Cayman Islands', 'CF': 'Central African Republic', 'TD': 'Chad', 'CL': 'Chile', 'CN': 'China', 'CX': 'Christmas Island', 'CC': 'Cocos (Keeling) Islands', 'CO': 'Colombia', 'KM': 'Comoros', 'CG': 'Congo', 'CD': 'Congo, the Democratic Republic of the', 'CK': 'Cook Islands', 'CR': 'Costa Rica', 'CI': 'Ivory Coast', 'HR': 'Croatia', 'CU': 'Cuba', 'CY': 'Cyprus', 'CZ': 'Czech Republic', 'DK': 'Denmark', 'DJ': 'Djibouti', 'DM': 'Dominica', 'DO': 'Dominican Republic', 'EC': 'Ecuador', 'EG': 'Egypt', 'SV': 'El Salvador', 'GQ': 'Equatorial Guinea', 'ER': 'Eritrea', 'EE': 'Estonia', 'ET': 'Ethiopia', 'FK': 'Falkland Islands (Malvinas)', 'FO': 'Faroe Islands', 'FJ': 'Fiji', 'FI': 'Finland', 'FR': 'France', 'GF': 'French Guiana', 'PF': 'French Polynesia', 'TF': 'French Southern Territories', 'GA': 'Gabon', 'GM': 'Gambia', 'GE': 'Georgia', 'DE': 'Germany', 'GH': 'Ghana', 'GI': 'Gibraltar', 'GR': 'Greece', 'GL': 'Greenland', 'GD': 'Grenada', 'GP': 'Guadeloupe', 'GU': 'Guam', 'GT': 'Guatemala', 'GG': 'Guernsey', 'GN': 'Guinea', 'GW': 'Guinea-Bissau', 'GY': 'Guyana', 'HT': 'Haiti', 'HM': 'Heard Island and McDonald Islands', 'VA': 'Holy See (Vatican City State)', 'HN': 'Honduras', 'HK': 'Hong Kong', 'HU': 'Hungary', 'IS': 'Iceland', 'IN': 'India', 'ID': 'Indonesia', 'IR': 'Iran, Islamic Republic of', 'IQ': 'Iraq', 'IE': 'Ireland', 'IM': 'Isle of Man', 'IL': 'Israel', 'IT': 'Italy', 'JM': 'Jamaica', 'JP': 'Japan', 'JE': 'Jersey', 'JO': 'Jordan', 'KZ': 'Kazakhstan', 'KE': 'Kenya', 'KI': 'Kiribati', 'KP': "Korea, Democratic People's Republic of", 'KR': 'South Korea', 'KW': 'Kuwait', 'KG': 'Kyrgyzstan', 'LA': "Lao People's Democratic Republic", 'LV': 'Latvia', 'LB': 'Lebanon', 'LS': 'Lesotho', 'LR': 'Liberia', 'LY': 'Libya', 'LI': 'Liechtenstein', 'LT': 'Lithuania', 'LU': 'Luxembourg', 'MO': 'Macao', 'MK': 'Macedonia, the former Yugoslav Republic of', 'MG': 'Madagascar', 'MW': 'Malawi', 'MY': 'Malaysia', 'MV': 'Maldives', 'ML': 'Mali', 'MT': 'Malta', 'MH': 'Marshall Islands', 'MQ': 'Martinique', 'MR': 'Mauritania', 'MU': 'Mauritius', 'YT': 'Mayotte', 'MX': 'Mexico', 'FM': 'Micronesia, Federated States of', 'MD': 'Moldova, Republic of', 'MC': 'Monaco', 'MN': 'Mongolia', 'ME': 'Montenegro', 'MS': 'Montserrat', 'MA': 'Morocco', 'MZ': 'Mozambique', 'MM': 'Burma', 'NA': 'Namibia', 'NR': 'Nauru', 'NP': 'Nepal', 'NL': 'Netherlands', 'AN': 'Netherlands Antilles', 'NC': 'New Caledonia', 'NZ': 'New Zealand', 'NI': 'Nicaragua', 'NE': 'Niger', 'NG': 'Nigeria', 'NU': 'Niue', 'NF': 'Norfolk Island', 'MP': 'Northern Mariana Islands', 'NO': 'Norway', 'OM': 'Oman', 'PK': 'Pakistan', 'PW': 'Palau', 'PS': 'Palestinian Territory, Occupied', 'PA': 'Panama', 'PG': 'Papua New Guinea', 'PY': 'Paraguay', 'PE': 'Peru', 'PH': 'Philippines', 'PN': 'Pitcairn', 'PL': 'Poland', 'PT': 'Portugal', 'PR': 'Puerto Rico', 'QA': 'Qatar', 'RE': 'Réunion', 'RO': 'Romania', 'RU': 'Russia', 'RW': 'Rwanda', 'SH': 'Saint Helena, Ascension and Tristan da Cunha', 'KN': 'Saint Kitts and Nevis', 'LC': 'Saint Lucia', 'PM': 'Saint Pierre and Miquelon', 'VC': 'St. Vincent and the Grenadines', 'WS': 'Samoa', 'SM': 'San Marino', 'ST': 'Sao Tome and Principe', 'SA': 'Saudi Arabia', 'SN': 'Senegal', 'RS': 'Serbia', 'SC': 'Seychelles', 'SL': 'Sierra Leone', 'SG': 'Singapore', 'SK': 'Slovakia', 'SI': 'Slovenia', 'SB': 'Solomon Islands', 'SO': 'Somalia', 'ZA': 'South Africa', 'GS': 'South Georgia and the South Sandwich Islands', 'SS': 'South Sudan', 'ES': 'Spain', 'LK': 'Sri Lanka', 'SD': 'Sudan', 'SR': 'Suriname', 'SJ': 'Svalbard and Jan Mayen', 'SZ': 'Swaziland', 'SE': 'Sweden', 'CH': 'Switzerland', 'SY': 'Syrian Arab Republic', 'TW': 'Taiwan', 'TJ': 'Tajikistan', 'TZ': 'Tanzania, United Republic of', 'TH': 'Thailand', 'TL': 'Timor-Leste', 'TG': 'Togo', 'TK': 'Tokelau', 'TO': 'Tonga', 'TT': 'Trinidad and Tobago', 'TN': 'Tunisia', 'TR': 'Turkey', 'TM': 'Turkmenistan', 'TC': 'Turks and Caicos Islands', 'TV': 'Tuvalu', 'UG': 'Uganda', 'UA': 'Ukraine', 'AE': 'United Arab Emirates', 'GB': 'United Kingdom', 'US': 'United States', 'UM': 'United States Minor Outlying Islands', 'UY': 'Uruguay', 'UZ': 'Uzbekistan', 'VU': 'Vanuatu', 'VE': 'Venezuela', 'VN': 'Vietnam', 'VG': 'Virgin Islands, British', 'VI': 'Virgin Islands, U.S.', 'WF': 'Wallis and Futuna', 'EH': 'Western Sahara', 'YE': 'Yemen', 'ZM': 'Zambia', 'ZW': 'Zimbabwe'}
 background_colors = [(255, 154, 162), (255, 183, 178), (255, 218, 193), (226, 240, 203), (181, 234, 215), (199, 206, 234)]
-font = ImageFont.truetype("DejaVuSans-Bold.ttf", 50)
-font2 = ImageFont.truetype("DejaVuSans.ttf", 50)
-font3 = ImageFont.truetype("DejaVuSans-Italic.ttf", 30)
+font = ImageFont.truetype("fonts\\DejaVuSans-Bold.ttf", 50)
+font2 = ImageFont.truetype("fonts\\DejaVuSans.ttf", 50)
+font3 = ImageFont.truetype("fonts\\DejaVuSans-Italic.ttf", 30)
 
 # get neuroimaging/stimulation technique descriptions
 neuroimaging_techniques = {"EEG": "Electroencephalography (EEG) is an electrophysiological monitoring method to record electrical activity of the brain. It is typically noninvasive, with the electrodes placed along the scalp, although invasive electrodes are sometimes used, as in electrocorticography, sometimes called intracranial EEG.",
 "Electrocardiography": "Electrocardiography is the process of producing an electrocardiogram (ECG or EKG). It is a graph of voltage versus time of the electrical activity of the heart using electrodes placed on the skin. These electrodes detect the small electrical changes that are a consequence of cardiac muscle depolarization followed by repolarization during each cardiac cycle (heartbeat).",
+"ECG": "Electrocardiography(ECG) is the process of producing an electrocardiogram (ECG or EKG). It is a graph of voltage versus time of the electrical activity of the heart using electrodes placed on the skin. These electrodes detect the small electrical changes that are a consequence of cardiac muscle depolarization followed by repolarization during each cardiac cycle (heartbeat).",
+"EKG": "Electrocardiography(EKG) is the process of producing an electrocardiogram (ECG or EKG). It is a graph of voltage versus time of the electrical activity of the heart using electrodes placed on the skin. These electrodes detect the small electrical changes that are a consequence of cardiac muscle depolarization followed by repolarization during each cardiac cycle (heartbeat).",
 "Electromyography": "Electromyography (EMG) is an electrodiagnostic medicine technique for evaluating and recording the electrical activity produced by skeletal muscles.",
+"EMG": "Electromyography (EMG) is an electrodiagnostic medicine technique for evaluating and recording the electrical activity produced by skeletal muscles.",
 "ENG": "An electroneurogram is a method used to visualize directly recorded electrical activity of neurons in the central nervous system (brain, spinal cord) or the peripheral nervous system (nerves, ganglions). The acronym ENG is often used. An electroneurogram is similar to an electromyogram (EMG), but the latter is used to visualize muscular activity. An electroencephalogram (EEG) is a particular type of electroneurogram in which several electrodes are placed around the head and the general activity of the brain is recorded, without having very high resolution to distinguish between the activity of different groups of neurons.",
 "FMRI": "Functional magnetic resonance imaging or functional MRI (fMRI) measures brain activity by detecting changes associated with blood flow. This technique relies on the fact that cerebral blood flow and neuronal activation are coupled. When an area of the brain is in use, blood flow to that region also increases.",
 "FNIRS": "Functional near-infrared spectroscopy (fNIRS) is an optical brain monitoring technique which uses near-infrared spectroscopy for the purpose of functional neuroimaging. Using fNIRS, brain activity is measured by using near-infrared light to estimate cortical hemodynamic activity which occur in response to neural activity.",
@@ -58,7 +61,8 @@ neuroimaging_techniques = {"EEG": "Electroencephalography (EEG) is an electrophy
 "Optogenetics": "Optogenetics most commonly refers to a biological technique that involves the use of light to control neurons that have been genetically modified to express light-sensitive ion channels. As such, optogenetics is a neuromodulation method that uses a combination of techniques from optics and genetics to control the activities of individual neurons in living tissue even within freely-moving animals. In some usages, optogenetics also refers to optical monitoring of neuronal activity or control of other biochemical pathways in non-neuronal cells, although these research activities preceded the use of light-sensitive ion channels in neurons.",
 "PET": "Positron emission tomography (PET) is a functional imaging technique that uses radioactive substances known as radiotracers to visualize and measure changes in metabolic processes, and in other physiological activities including blood flow, regional chemical composition, and absorption. Different tracers are used for various imaging purposes, depending on the target process within the body.",
 "PIR": "Developed by Dr. Jeffrey Carmen, a privately practicing psychologist in New York, passive infrared HEG is a marriage of the classic hemoencephalography principles employed by Toomim and a technique known as thermoscopy. PIR uses a sensor similar to the NIR sensor to detect light from a narrow band of the infrared spectrum that corresponds to the amount of heat being generated by an active brain region, as well as the local blood oxygenation level. The heat detected by PIR is proportional to the amount of sugar being burned to maintain the increased metabolic rate necessary to fuel elevated neuronal activity. PIR has a poorer resolution than NIR and this treatment typically focuses on more global increases in cerebral blood flow.",
-"TCD": "Transcranial Doppler (TCD) and transcranial color Doppler (TCCD) are types of Doppler ultrasonography that measure the velocity of blood flow through the brain\'s blood vessels by measuring the echoes of ultrasound waves moving transcranially (through the cranium). These modes of medical imaging conduct a spectral analysis of the acoustic signals they receive and can therefore be classified as methods of active acoustocerebrography."}
+"TCD": "Transcranial Doppler (TCD) and transcranial color Doppler (TCCD) are types of Doppler ultrasonography that measure the velocity of blood flow through the brain\'s blood vessels by measuring the echoes of ultrasound waves moving transcranially (through the cranium). These modes of medical imaging conduct a spectral analysis of the acoustic signals they receive and can therefore be classified as methods of active acoustocerebrography.",
+"Neuos": "Neuos is an EEG-software platform that decodes feelings, reactions, and cognitive states using a matrix of proprietary algorithms."}
 '''
 resp = str(requests.get("https://bciwiki.org/index.php/Category:Neurosensing_Techniques").content)
 resp = resp.split('<li>')[1:]
@@ -124,7 +128,7 @@ def pasteImage(newimgname, finalimg, width, x, y):
     finalimg.paste(newimg, (x, y), newimg.convert('RGBA'))
     return newheight+y
 
-def wordWrap(text, max_width, firstitem, char_length=20):
+def wordWrap(text, max_width, char_length=22):
     max_chars = round(max_width/char_length)
     textlines = []
     textcopy = text
@@ -142,7 +146,9 @@ def wordWrap(text, max_width, firstitem, char_length=20):
     textlines += [textcopy]
     for textline in textlines:
         textfinal += textline+"\n"
-    spaceradd = len(textlines)*45
+    spaceradd = len(textlines)*75
+    if spaceradd > 750:
+        spaceradd = 750
     return spaceradd, textfinal
 
 # collect categorized company data
@@ -157,9 +163,17 @@ for a in range(1, len(companies)):
     companyinfo = companies[a].split("<td>")
     for b in range(1, len(companyinfo)):
         if "<a" in companyinfo[b]:
-            name = companyinfo[b].split('<a href="')[1]
-            name = name.split('"')[0]
-            name = name.split("/")[2]
+            names = companyinfo[b].split('<a href="')[1:]
+            name = ""
+            for n in names:
+                n = n.split('"')[0]
+                if len(names) > 1:
+                    n = " "+n.split("/")[2]+","
+                else:
+                    n = n.split("/")[2]
+                name += n
+            if len(names) > 1:
+                name = name[:-1]
             allcompanyinfo[allcompanyindex] += [name]
         else:
             info = companyinfo[b].split("\\n</td>")[0]
@@ -168,141 +182,265 @@ for a in range(1, len(companies)):
             allcompanyindex += 1
             allcompanyinfo += [[]]
 allcompanyinfo.pop()
-print(allcompanyinfo[len(allcompanyinfo)-1])
 
 for companyinfo in allcompanyinfo:
     if not os.path.exists("companyprofiles\\"+companyinfo[0]+".png"):
-        # create template background based on average logo color - https://quick-adviser.com/how-do-i-find-the-average-color-of-an-image/
-        # combine logo and country layers - https://www.geeksforgeeks.org/python-pil-composite-method/
-        
-        companylogo = Image.open(r"images\\"+companyinfo[0]+".png")
+        # create template background based on most common logo color
+        # combine logo and country layers
+        companylogo = Image.open(r"images\\"+companyinfo[0]+".png").convert('RGBA')
         w, h = companylogo.size
-        newwidth = 500
+        px = companylogo.load()
+        print("images\\"+companyinfo[0]+".png")
+        pixelcolors = {}
+        for pixelrow in range(2, 20):
+            for pixelcol in range(2, 20):
+                currentcolor = companylogo.getpixel((round(w/pixelcol), round(h/pixelrow)))
+                if currentcolor in pixelcolors:
+                    pixelcolors[currentcolor] += 1
+                else:
+                    pixelcolors[currentcolor] = 1
+        maincolor = ""
+        maincolorval = 0
+        print(pixelcolors)
+        for color in pixelcolors:
+            if type(color) == type(1):
+                if pixelcolors[color] > maincolorval:
+                    maincolorval = pixelcolors[color]
+                    maincolor = color
+            else:
+                if pixelcolors[color] > maincolorval and (len(color) < 4 or color[3] > 0):
+                    maincolorval = pixelcolors[color]
+                    maincolor = color
+        print(maincolor)
+        lightlogo = False
+        if type(maincolor) == type(1):
+            if maincolor > 128:
+                lightlogo = True
+        elif type(maincolor) != type(""):
+            if (maincolor[0] > 128 and (maincolor[1] > 128 or maincolor[2] > 128)) or (maincolor[1] > 128 and maincolor[2] > 128):
+                lightlogo = True
+
+        if lightlogo:
+            # light logo
+            colorpallete = {'fonts':
+                            {'h1': {'font': ImageFont.truetype("fonts\\Muli-Bold.ttf", 40), 'color': (255, 255, 255)},
+                             'h2': {'font': ImageFont.truetype("fonts\\Kollektif.ttf", 66), 'color': (172, 213, 230)},
+                             'h3': {'font': ImageFont.truetype("fonts\\Kollektif.ttf", 66), 'color': (0, 63, 100)},
+                             'p1': {'font': ImageFont.truetype("fonts\\Muli.ttf", 30), 'color': (255, 255, 255)},
+                             'p2': {'font': ImageFont.truetype("fonts\\Muli.ttf", 30), 'color': (0, 63, 100)},
+                             'p3': {'font': ImageFont.truetype("fonts\\Muli-Bold.ttf", 45), 'color': (0, 63, 100)}},
+                            'colors': {'bg1': (0, 63, 100), 'bg2': (233, 235, 255), 'logoext': '-light'}
+                            }
+        else:
+            # dark logo
+            colorpallete = {'fonts':
+                            {'h1': {'font': ImageFont.truetype("fonts\\Muli-Bold.ttf", 40), 'color': (0, 0, 0)},
+                             'h2': {'font': ImageFont.truetype("fonts\\Kollektif.ttf", 66), 'color': (0, 63, 100)},
+                             'h3': {'font': ImageFont.truetype("fonts\\Kollektif.ttf", 66), 'color': (172, 213, 230)},
+                             'p1': {'font': ImageFont.truetype("fonts\\Muli.ttf", 30), 'color': (0, 0, 0)},
+                             'p2': {'font': ImageFont.truetype("fonts\\Muli.ttf", 30), 'color': (172, 213, 230)},
+                             'p3': {'font': ImageFont.truetype("fonts\\Muli-Bold.ttf", 45), 'color': (172, 213, 230)}},
+                            'colors': {'bg1': (233, 235, 255), 'bg2': (0, 63, 100), 'logoext': '-dark'}
+                            }
+        
+        finalwidth = 1400
+        newwidth = int(finalwidth/2)
         newheight = int((h/w)*newwidth)
         companylogo = companylogo.resize((newwidth, newheight))
 
         topspacer = newheight+150
         randomcolor = random.randint(0, len(background_colors)-1)
-        print(type(background_colors[randomcolor]))
-        print(background_colors[randomcolor])
-        finalimg = Image.new('RGBA', (1400, newheight+10000), background_colors[randomcolor])
-        finalimg.paste(companylogo, (450, 100), companylogo.convert('RGBA'))
+        finalimg = Image.new('RGBA', (finalwidth, newheight+15000), colorpallete['colors']['bg1'])
+        finalimg.paste(companylogo, (350, 100), companylogo)
 
         
         # company name title
         d = ImageDraw.Draw(finalimg)
-        d.text((700, 50), companyinfo[0].replace("_", " "), fill="black", anchor="ms", font=font)
+        d.text((finalwidth/2, 50), companyinfo[0].replace("_", " "), fill=colorpallete['fonts']['h1']['color'], anchor="ms", font=colorpallete['fonts']['h1']['font'])
+        d.text((finalwidth/2, topspacer), "An introduction by BCIwiki.org", fill=colorpallete['fonts']['h1']['color'], anchor="ms", font=colorpallete['fonts']['h1']['font'])
+        d.line([(200, topspacer+25), (finalwidth-200, topspacer+25)], fill=colorpallete['colors']['bg2'], width=7)
         
+
+        # country and founding year
+        d.text((finalwidth/2, topspacer+150), "Founded in", fill=colorpallete['fonts']['p1']['color'], anchor="la", font=colorpallete['fonts']['p1']['font'])
+        d.text((finalwidth/2, topspacer+200), countries[companyinfo[5]], fill=colorpallete['fonts']['h2']['color'], anchor="la", font=colorpallete['fonts']['h2']['font'])
+        d.text((finalwidth/2, topspacer+260), "around", fill=colorpallete['fonts']['p1']['color'], anchor="la", font=colorpallete['fonts']['p1']['font'])
+        d.text((finalwidth/2, topspacer+310), companyinfo[6], fill=colorpallete['fonts']['h2']['color'], anchor="la", font=colorpallete['fonts']['h2']['font'])
+        topspacer = pasteImage("countries\\"+companyinfo[5]+colorpallete['colors']['logoext'], finalimg, 550, 75, topspacer)
+        
+        d.rectangle([(0, topspacer), (finalwidth, topspacer+2500)], fill=colorpallete['colors']['bg2'])
+        pasteImage("icons\\triangle", finalimg, 150, int(finalwidth/2)-75, topspacer-70)
+        topspacer += 150
         # invasive and/or noninvasive icons+text
-        d.text((700, topspacer), companyinfo[0].replace("_", " ")+" produces...", fill="black", anchor="ms", font=font2)
+        d.text((finalwidth/2, topspacer), "Produces", fill=colorpallete['fonts']['p2']['color'], anchor="ms", font=colorpallete['fonts']['p2']['font'])
         topspacer += 25
         if companyinfo[1] == 'True' or testmode:
-            d.text((450, topspacer+150), "...noninvasive hardware", fill="black", anchor="la", font=font3)
-            pasteImage("icons\\noninvasive_circle", finalimg, 300, 950, topspacer)
+            d.text((finalwidth/2, topspacer+60), "noninvasive hardware", fill=colorpallete['fonts']['h3']['color'], anchor="ms", font=colorpallete['fonts']['h3']['font'])
+            topspacer += 60
         if companyinfo[2] == 'True' or testmode:
-            d.text((450, topspacer+200), "...invasive hardware", fill="black", anchor="la", font=font3)
-            pasteImage("icons\\invasive_circle", finalimg, 300, 50, topspacer)
-        topspacer += 150
+            d.text((finalwidth/2, topspacer+60), "invasive hardware", fill=colorpallete['fonts']['h3']['color'], anchor="ms", font=colorpallete['fonts']['h3']['font'])
+            topspacer += 60
 
         # software and/or dev tools text
         if companyinfo[3] == 'True' or testmode:
-            d.text((450, topspacer+100), "...end-user software", fill="black", anchor="la", font=font3)
-            topspacer += 100
+            d.text((finalwidth/2, topspacer+60), "end-user software", fill=colorpallete['fonts']['h3']['color'], anchor="ms", font=colorpallete['fonts']['h3']['font'])
+            topspacer += 60
         if companyinfo[4] == 'True' or testmode:
-            d.text((450, topspacer+100), "...developer tools", fill="black", anchor="la", font=font3)
-            topspacer += 100
-
+            d.text((finalwidth/2, topspacer+60), "developer tools", fill=colorpallete['fonts']['h3']['color'], anchor="ms", font=colorpallete['fonts']['h3']['font'])
+            topspacer += 60
         if companyinfo[1] == 'False' and companyinfo[2] == 'False' and companyinfo[3] == 'False' and companyinfo[4] == 'False':
-            d.text((450, topspacer+100), "...neurotech consulting services", fill="black", anchor="la", font=font3)
-            topspacer += 100
-
-        # country and founding year
-        d.text((700, topspacer+250), companyinfo[0].replace("_", " ")+" was founded in "+countries[companyinfo[5]]+" around "+companyinfo[6]+".", fill="black", anchor="ms", font=font3)
-        topspacer = pasteImage("countries\\"+companyinfo[5], finalimg, 300, 550, topspacer+250)
+            d.text((finalwidth/2, topspacer+60), "neurotech consulting services", fill=colorpallete['fonts']['h3']['color'], anchor="ms", font=colorpallete['fonts']['h3']['font'])
+            topspacer += 60
+        topspacer += 200
+        d.rectangle([(0, topspacer), (finalwidth, topspacer+2500)], fill=colorpallete['colors']['bg1'])
+        pasteImage("icons\\triangle", finalimg, 150, int(finalwidth/2)-75, topspacer-70)
 
         # application cetegories
-        topspacer += 100
-        d.text((700, topspacer), companyinfo[0].replace("_", " ")+" makes tools for...", fill="black", anchor="ms", font=font2)
+        topspacer += 150
+        d.text((finalwidth/2, topspacer), "Makes tools for", fill=colorpallete['fonts']['p1']['color'], anchor="ms", font=colorpallete['fonts']['p1']['font'])
+        first = True
         if 'Clinical' in companyinfo[7] or testmode:
-            topspacer += 50
-            d.text((450, topspacer), "...medical diagnosis and treatment through\nbody/mind state interpretation and\nneurostimulation therapies", fill="black", anchor="la", font=font3)
-            pasteImage("icons\\clinical_circle", finalimg, 250, 50, topspacer)
+            topspacer += 100
+            if not first:
+                topspacer += 150
+            first = False
+            d.text((finalwidth/2, topspacer), "medical diagnosis and treatment through", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
+            d.text((finalwidth/2, topspacer+60), "body/mind state interpretation and/or", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
+            d.text((finalwidth/2, topspacer+120), "neurostimulation therapies", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
         if 'RC/UI' in companyinfo[7] or testmode:
-            topspacer += 250
-            d.text((450, topspacer), "...the assisted control of mechanical,\nelectrical, and digital devices/applications", fill="black", anchor="la", font=font3)
-            pasteImage("icons\\A_circle", finalimg, 250, 50, topspacer)
+            topspacer += 100
+            if not first:
+                topspacer += 150
+            first = False
+            d.text((finalwidth/2, topspacer), "the assisted control of mechanical,", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
+            d.text((finalwidth/2, topspacer+60), "electrical, and digital devices/applications", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
         if 'Subjective Measurement' in companyinfo[7] or testmode:
-            topspacer += 250
-            d.text((450, topspacer), "...the objective measurement of subjective\nexperiences through mind/body state\ninterpretation", fill="black", anchor="la", font=font3)
-            pasteImage("icons\\subjectivemeasurement_circle", finalimg, 250, 50, topspacer)
+            topspacer += 100
+            if not first:
+                topspacer += 150
+            first = False
+            d.text((finalwidth/2, topspacer), "the objective measurement of subjective", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
+            d.text((finalwidth/2, topspacer+60), "experiences through mind/body state", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
+            d.text((finalwidth/2, topspacer+120), "interpretation", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
         if 'Motor-Sensory Augmentation' in companyinfo[7] or testmode:
-            topspacer += 250
-            d.text((450, topspacer), "...feedback through neurostimulation techniques", fill="black", anchor="la", font=font3)
-            pasteImage("icons\\motorsensoryaugmentation_circle", finalimg, 250, 50, topspacer)
+            topspacer += 100
+            if not first:
+                topspacer += 150
+            first = False
+            d.text((finalwidth/2, topspacer), "feedback through neurostimulation techniques", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
         if 'Wetwear Computing' in companyinfo[7] or testmode:
-            topspacer += 250
-            d.text((450, topspacer), "...the sensing and stimulation of biological\nneural networks, either within an animal or grown\nin a dish, to perform calculations", fill="black", anchor="la", font=font3)
-            pasteImage("icons\\wetwearcomputing_circle", finalimg, 250, 50, topspacer)
-        topspacer += 100
+            topspacer += 100
+            if not first:
+                topspacer += 150
+            first = False
+            d.text((finalwidth/2, topspacer), "the sensing and stimulation of in vitro", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
+            d.text((finalwidth/2, topspacer+60), "neural networks to perform calculations", fill=colorpallete['fonts']['h2']['color'], anchor="mm", font=colorpallete['fonts']['h2']['font'])
+        topspacer += 300
+        d.rectangle([(0, topspacer), (finalwidth, topspacer+6500)], fill=colorpallete['colors']['bg2'])
+        pasteImage("icons\\triangle", finalimg, 150, int(finalwidth/2)-75, topspacer-70)
 
         # bci categories
-        topspacer += 200
-        d.text((700, topspacer), "Brain-Computer Interface Categories", fill="black", anchor="ms", font=font2)
+        subtitletext = "category"
+        if "," in companyinfo[8]:
+            subtitletext = "categories"
+        textimg = Image.new('RGBA', (300, 300), colorpallete['colors']['bg2'])
+        d2 = ImageDraw.Draw(textimg)
+        d2.text((150, 25), "BCI", fill=colorpallete['fonts']['p3']['color'], anchor="mm", font=colorpallete['fonts']['p3']['font'])
+        d2.text((150, 75), subtitletext, fill=colorpallete['fonts']['p3']['color'], anchor="mm", font=colorpallete['fonts']['p3']['font'])
+        textimgrot = textimg.rotate(90)
+        commacount = companyinfo[8].count(",")+1
+        finalimg.paste(textimgrot, (50, topspacer+commacount*150), textimgrot.convert('RGBA'))
+        topspacertmp = topspacer
+        topspacer += 150
+        first = True
         if 'Open-Loop Efferent BCI' in companyinfo[8] or testmode:
             topspacer += 100
-            d.text((1000, topspacer), "Open-Loop Efferent BCI - Brain signals control an external\ndevice.", fill="black", anchor="ra", font=font3)
-            pasteImage("icons\\A_circle", finalimg, 250, 1000, topspacer)
+            first = False
+            d.text((finalwidth/4, topspacer), "Open-Loop Efferent BCI", fill=colorpallete['fonts']['h3']['color'], anchor="la", font=colorpallete['fonts']['h3']['font'])
+            d.text((finalwidth/4, topspacer+100), "Brain signals control an external device", fill=colorpallete['fonts']['p2']['color'], anchor="la", font=colorpallete['fonts']['p2']['font'])
         if 'Open-Loop Afferent BCI' in companyinfo[8] or testmode:
-            topspacer += 250
-            d.text((1000, topspacer), "Open-Loop Afferent BCI - Electrical stimulation to the brain\nby a device.", fill="black", anchor="ra", font=font3)
-            pasteImage("icons\\B_circle", finalimg, 250, 1000, topspacer)
+            topspacer += 100
+            if not first:
+                topspacer += 150
+            first = False
+            d.text((finalwidth/4, topspacer), "Open-Loop Afferent BCI", fill=colorpallete['fonts']['h3']['color'], anchor="la", font=colorpallete['fonts']['h3']['font'])
+            d.text((finalwidth/4, topspacer+100), "Electrical stimulation to the brain by a device", fill=colorpallete['fonts']['p2']['color'], anchor="la", font=colorpallete['fonts']['p2']['font'])
         if 'Closed-Loop Efferent BCI' in companyinfo[8] or testmode:
-            topspacer += 250
-            d.text((1000, topspacer), "Closed-Loop Efferent BCI - Brain signals control an external\ndevice and then feedback is given to the user that enables\nthem to change brain signals.", fill="black", anchor="ra", font=font3)
-            pasteImage("icons\\C_circle", finalimg, 250, 1000, topspacer)
+            topspacer += 100
+            if not first:
+                topspacer += 150
+            first = False
+            d.text((finalwidth/4, topspacer), "Closed-Loop Efferent BCI", fill=colorpallete['fonts']['h3']['color'], anchor="la", font=colorpallete['fonts']['h3']['font'])
+            d.text((finalwidth/4, topspacer+100), "Brain signals control an external device\nand then feedback is given to the user that\nenables them to change brain signals", fill=colorpallete['fonts']['p2']['color'], anchor="la", font=colorpallete['fonts']['p2']['font'])
         if 'Closed-Loop Afferent BCI' in companyinfo[8] or testmode:
-            topspacer += 250
-            d.text((1000, topspacer), "Closed-Loop Afferent BCI - Electrical stimulation to the\nbrain by a device and moderated by movement monitoring.", fill="black", anchor="ra", font=font3)
-            pasteImage("icons\\D_circle", finalimg, 250, 1000, topspacer)
+            topspacer += 100
+            if not first:
+                topspacer += 150
+            first = False
+            d.text((finalwidth/4, topspacer), "Closed-Loop Afferent BCI", fill=colorpallete['fonts']['h3']['color'], anchor="la", font=colorpallete['fonts']['h3']['font'])
+            d.text((finalwidth/4, topspacer+100), "Electrical stimulation to the brain by\na device and moderated by movement monitoring.", fill=colorpallete['fonts']['p2']['color'], anchor="la", font=colorpallete['fonts']['p2']['font'])
         if 'Bidirectional Afferent Closed-Loop BCI' in companyinfo[8] or testmode:
-            topspacer += 250
-            d.text((1000, topspacer), "Bidirectional Afferent Closed-Loop BCI - Electrical\nstimulation to the brain is modulated depending on the\nrecordings.", fill="black", anchor="ra", font=font3)
-            pasteImage("icons\\E_circle", finalimg, 250, 1000, topspacer)
+            topspacer += 100
+            if not first:
+                topspacer += 150
+            first = False
+            d.text((finalwidth/4, topspacer), "Bidirectional Afferent Closed-Loop\nBCI", fill=colorpallete['fonts']['h3']['color'], anchor="la", font=colorpallete['fonts']['h3']['font'])
+            d.text((finalwidth/4, topspacer+120), "Electrical stimulation to the brain is modulated\ndepending on the recordings.", fill=colorpallete['fonts']['p2']['color'], anchor="la", font=colorpallete['fonts']['p2']['font'])
 
         # neuroimaging techniques
         if companyinfo[9] != "" or testmode:
-            topspacer += 300
-            sectiontitle = "Neuroimaging Technique"
-            if "," in companyinfo[10]:
-                sectiontitle = "Neuroimaging Techniques"
-            d.text((700, topspacer), sectiontitle, fill="black", anchor="ms", font=font2)
-            firstitem = True
+            topspacer += 200
+            subtitletext = "Technique"
+            if "," in companyinfo[9]:
+                subtitletext = "Techniques"
+            textimg = Image.new('RGBA', (400, 400), colorpallete['colors']['bg2'])
+            d2 = ImageDraw.Draw(textimg)
+            d2.text((200, 25), "Neuroimaging", fill=colorpallete['fonts']['p3']['color'], anchor="mm", font=colorpallete['fonts']['p3']['font'])
+            d2.text((200, 75), subtitletext, fill=colorpallete['fonts']['p3']['color'], anchor="mm", font=colorpallete['fonts']['p3']['font'])
+            textimgrot = textimg.rotate(90)
+            textimgrot = textimgrot.crop((0, 0, 200, 400))
+            finalimg.paste(textimgrot, (50, topspacer), textimgrot.convert('RGBA'))
+            first = True
+            topspaceradd = 0
             for neuroimaging_technique in neuroimaging_techniques:
-                if neuroimaging_technique.lower() == companyinfo[9].lower() or " "+neuroimaging_technique.lower() in companyinfo[9].lower() or neuroimaging_technique.lower()+"," in companyinfo[9].lower() or testmode:
-                    topspaceradd, imaging_text = wordWrap(neuroimaging_technique+" - "+neuroimaging_techniques[neuroimaging_technique], 1400, firstitem)
-                    firstitem = False
-                    d.text((100, topspacer+75), imaging_text, fill="black", anchor="la", font=font3)
+                if neuroimaging_technique.lower() == companyinfo[9].lower() or " "+neuroimaging_technique.lower() in companyinfo[9].lower() or testmode:
+                    topspaceradd, imaging_text = wordWrap(neuroimaging_techniques[neuroimaging_technique], 1400)
+                    d.text((finalwidth/4, topspacer+75), neuroimaging_technique, fill=colorpallete['fonts']['h3']['color'], anchor="la", font=colorpallete['fonts']['h3']['font'])
+                    d.text((finalwidth/4, topspacer+175), imaging_text, fill=colorpallete['fonts']['p2']['color'], anchor="la", font=colorpallete['fonts']['p2']['font'])
                     topspacer += topspaceradd
+            if topspaceradd < 400 and companyinfo[10] == "":
+                    topspacer += 400
         
         # neurostimulation techniques
         if companyinfo[10] != "" or testmode:
-            topspacer += 300
-            sectiontitle = "Neurostimulation Technique"
-            if "," in companyinfo[10]:
-                sectiontitle = "Neurostimulation Techniques"
-            d.text((700, topspacer), sectiontitle, fill="black", anchor="ms", font=font2)
-            firstitem = True
+            topspacer += 200
+            subtitletext = "Technique"
+            if "," in companyinfo[9]:
+                subtitletext = "Techniques"
+            textimg = Image.new('RGBA', (400, 400), colorpallete['colors']['bg2'])
+            d2 = ImageDraw.Draw(textimg)
+            d2.text((200, 25), "Neurostimulation", fill=colorpallete['fonts']['p3']['color'], anchor="mm", font=colorpallete['fonts']['p3']['font'])
+            d2.text((200, 75), subtitletext, fill=colorpallete['fonts']['p3']['color'], anchor="mm", font=colorpallete['fonts']['p3']['font'])
+            textimgrot = textimg.rotate(90)
+            textimgrot = textimgrot.crop((0, 0, 200, 400))
+            finalimg.paste(textimgrot, (50, topspacer), textimgrot.convert('RGBA'))
+            first = True
+            topspaceradd = 0
             for neurostimulation_technique in neurostimulation_techniques:
-                if neurostimulation_technique.lower() == companyinfo[10].lower() or " "+neurostimulation_technique.lower() in companyinfo[10].lower() or neurostimulation_technique.lower()+"," in companyinfo[10].lower() or testmode:
-                    topspaceradd, imaging_text = wordWrap(neurostimulation_technique+" - "+neurostimulation_techniques[neurostimulation_technique], 1400, firstitem)
-                    firstitem = False
-                    d.text((100, topspacer+75), imaging_text, fill="black", anchor="la", font=font3)
+                if neurostimulation_technique.lower() == companyinfo[10].lower() or " "+neurostimulation_technique.lower() in companyinfo[10].lower() or testmode:
+                    topspaceradd, stimulation_text = wordWrap(neurostimulation_techniques[neurostimulation_technique], 1400)
+                    first = False
+                    d.text((finalwidth/4, topspacer+75), neurostimulation_technique, fill=colorpallete['fonts']['h3']['color'], anchor="la", font=colorpallete['fonts']['h3']['font'])
+                    d.text((finalwidth/4, topspacer+175), stimulation_text, fill=colorpallete['fonts']['p2']['color'], anchor="la", font=colorpallete['fonts']['p2']['font'])
                     topspacer += topspaceradd
-                
+            if topspaceradd < 400:
+                    topspacer += 400
+        d.line([(250, topspacertmp+150), (250, topspacer-150)], fill=colorpallete['colors']['bg1'], width=7)
 
         # footer
-        d.text((20, topspacer+250), "bciwiki.org", fill="black", anchor="la", font=font3)
-        topspacer += 300
+        d.rectangle([(0, topspacer), (finalwidth, topspacer+500)], fill=colorpallete['colors']['bg1'])
+        d.text((finalwidth/2, topspacer+100), "BCIwiki.org", fill=colorpallete['fonts']['h1']['color'], anchor="ms", font=colorpallete['fonts']['h1']['font'])
+        topspacer += 175
 
         # crop bottom of image
         w, h = finalimg.size
