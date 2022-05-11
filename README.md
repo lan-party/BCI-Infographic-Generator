@@ -1,5 +1,5 @@
 # BCI-Infographic-Generator
-A script for creating company breakdown images from [here](https://bciwiki.org/index.php/Category:Companies)
+Tool for creating infographics from manually collected [neurotech company data](https://bciwiki.org/index.php/Category:Companies)
 
 All generated infographics can be found [here](https://bciwiki.org/index.php/Company_Profiles)
 
